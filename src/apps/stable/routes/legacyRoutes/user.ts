@@ -107,8 +107,8 @@ export const LEGACY_USER_ROUTES: LegacyRoute[] = [
     }, {
         path: 'userpluginsettings.html',
         pageProps: {
-            controller: '',
-            view: ''
+            controller: 'user/plugin/index',
+            view: 'user/plugins/index.html'
         }
     }
 ];
